@@ -67,3 +67,19 @@ plt.ylabel("importance")
 plt.tight_layout()
 plt.savefig("feature_importance.png")
 plt.show()
+
+# 7. Wykres actual vs predicted
+plt.figure(figsize=(8, 8))
+plt.scatter(y_test, y_pred_rf, alpha=0.3)
+
+plt.xlabel("Actual values")
+plt.ylabel("Predicted values")
+plt.title("Actual vs Predicted - Random Forest")
+
+min_val = min(y_test.min(), y_pred_rf.min())
+max_val = max(y_test.max(), y_pred_rf.max())
+plt.plot([min_val, max_val], [min_val, max_val])
+
+plt.tight_layout()
+plt.savefig("actual_vs_predicted_rf.png")
+plt.show()

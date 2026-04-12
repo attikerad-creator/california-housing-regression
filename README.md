@@ -13,3 +13,6 @@ Duże znaczenie miały także `longitude` i `latitude`, czyli lokalizacja geogra
 
 ## Feature Importance Plot
 ![Feature Importance](feature_importance.png)
+
+## Actual vs Predicted Plot
+![Actual vs Predicted](actual_vs_predicted_rf.png)
