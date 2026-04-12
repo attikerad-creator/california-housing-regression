@@ -14,5 +14,10 @@ Duże znaczenie miały także `longitude` i `latitude`, czyli lokalizacja geogra
 ## Feature Importance Plot
 ![Feature Importance](feature_importance.png)
 
+## Actual vs Predicted
+Na wykresie większość punktów znajduje się blisko linii idealnych predykcji, co oznacza, że model Random Forest przewiduje ceny domów dość dobrze.
+
+Widać jednak większy rozrzut dla wyższych wartości, więc model popełnia większe błędy przy droższych nieruchomościach. Widoczne skupienie punktów przy wartości około 500000 wynika z ograniczenia maksymalnej wartości targetu w zbiorze danych.
+
 ## Actual vs Predicted Plot
 ![Actual vs Predicted](actual_vs_predicted_rf.png)
