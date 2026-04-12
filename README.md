@@ -10,3 +10,6 @@ Oznacza to, że Random Forest lepiej wyjaśnia zmienność cen domów i popełni
 Najważniejszą cechą dla modelu Random Forest okazało się `median_income`, co sugeruje, że poziom dochodu w danym obszarze silnie wiąże się z ceną domu.
 
 Duże znaczenie miały także `longitude` i `latitude`, czyli lokalizacja geograficzna. Pozostałe cechy, takie jak liczba pokoi, liczba sypialni, populacja czy wiek budynku, miały mniejszy wpływ na predykcję.
+
+## Feature Importance Plot
+![Feature Importance](feature_importance.png)
